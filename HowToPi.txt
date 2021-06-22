@@ -1,0 +1,21 @@
+OBS!(Gjør dette på rom A4-100 og det er litt anerledes på mac.)
+Koble r-pi til strøm og til eternet
+last ned putty (noe annet for mac)
+I putty velg SSH --> host name: rpi33.idi.ntnu.no (dette funker bare på rom A4-100), port: 22 --> open
+Godkjenn alt og du skal få opp r-pi konsolen der du må logge inn:
+Username = plab
+Local host = tdt4113-pi
+Password = piberryrasp
+Du er inne i r-pi!!!
+Filoverføring kan gjøres via ledetekst eller:
+Mac: Netatalk
+PC: Filezilla (Følg oppskriften i arket evt lenken under) OBS! ikke innstaler all ekstra driten som den spør om du vil ha.
+i Filezilla --> File --> site manager --> New site 
+Host: ipaddressen til r-pi som du finner ved å taste ifconfig i r-pi konsol
+Port: 22
+Protokol: SFTP
+
+filezilla: https://filezilla-project.org/ velg: "Download FileZilla Client All platforms"
+putty: https://www.chiark.greenend.org.uk/~sgtatham/putty/latest
+
+
